@@ -3,27 +3,31 @@ export type SiteConfig = typeof siteConfig;
 export const siteConfig = {
   name: "Discount Time Machine Wholesale",
   description:
-    "A great place to buy time machines at ridiculous prices! Obviously this is example text. Write a description of what your site is / what it does.",
+    "The Ultimate Indian Home Cookbook.",
   navItems: [
     {
       label: "Home",
       href: "/",
     },
     {
-      label: "Docs",
+      label: "Non-traditional Indian Food",
       href: "/docs",
     },
     {
-      label: "Pricing",
+      label: "Rotis",
       href: "/pricing",
     },
     {
-      label: "Blog",
+      label: "Sabjee/Curry",
       href: "/blog",
     },
     {
-      label: "About",
-      href: "/about",
+      label: "Appetizers",
+      href: "appetizers",
+    },
+    {
+      label: "Deserts",
+      href: "/deserts",
     },
   ],
   navMenuItems: [
@@ -32,20 +36,24 @@ export const siteConfig = {
       href: "/",
     },
     {
-      label: "Docs",
+      label: "Non-traditional Indian Food",
       href: "/docs",
     },
     {
-      label: "Pricing",
+      label: "Rotis",
       href: "/pricing",
     },
     {
-      label: "Blog",
+      label: "Sabjee/Curry",
       href: "/blog",
     },
     {
-      label: "About",
-      href: "/about",
+      label: "Deserts",
+      href: "/deserts",
+    },
+    {
+      label: "Appetizers",
+      href: "appetizers",
     },
   ],
   links: {

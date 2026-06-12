@@ -1,28 +1,41 @@
-import ConfettiButton from "@/components/confettiButton";
 import { title } from "@/components/primitives";
-
+import { Image } from "@heroui/image";
 export default function DocsPage() {
   return (
     <div>
-      <h1 className={title()}>Docs</h1>
-
-      <div className="my-20">
-        <span className="text-2xl mr-6">WOW thats a lot of celebrations!</span>{" "}
-        <span className="text-xs">Especially for a docs page.</span>
-      </div>
-
-      <div className="flex gap-4">
-        <ConfettiButton />
-        <ConfettiButton />
-        <ConfettiButton />
-        <ConfettiButton />
-        <ConfettiButton />
-        <ConfettiButton />
-        <ConfettiButton />
-        <ConfettiButton />
-        <ConfettiButton />
-        <ConfettiButton />
-      </div>
+      <h1 className={title()}>Non-Indian Food</h1>
+      <ul>
+        <li>Tacos</li>
+        <li>Loaded Nachos</li>
+        <li>Grilled Cheese Sandwich</li>
+      </ul>
+      <div className="flex justify-between text-lg">
+                <Image
+                    alt="tacos"
+                    src="https://www.connoisseurusveg.com/wp-content/uploads/2025/02/veggie-tacos-sq-2.jpg"
+                    width={400}
+                />
+                <p>Ingredients:</p>
+                <p>Recipe: Tacos</p>
+            </div>
+            <div className="flex justify-between text-lg">
+                <Image
+                    alt="nachos"
+                    src="https://www.savorynothings.com/wp-content/uploads/2016/04/loaded-vegetarian-nachos-recipe-3.jpg"
+                    width={400}
+                />
+                <p>Ingredients:</p>
+                <p>Recipe: Loaded Nachos</p>
+            </div>
+            <div className="flex justify-between text-lg">
+                <Image
+                    alt="cheese"
+                    src="https://www.jocooks.com/wp-content/uploads/2024/01/grilled-cheese-1-9.jpg"
+                    width={400}
+                />
+                <p>Ingredients:</p>
+                <p>Recipe: Grilled Cheese Sandwich</p>
+            </div>
     </div>
   );
 }
