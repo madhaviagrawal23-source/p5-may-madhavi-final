@@ -2,8 +2,7 @@ export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
   name: "Discount Time Machine Wholesale",
-  description:
-    "The Ultimate Indian Home Cookbook.",
+  description: "The Ultimate Indian Home Cookbook.",
   navItems: [
     {
       label: "Home",
